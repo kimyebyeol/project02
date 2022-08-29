@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body,
+h1,
+p,
+input,
+label {
+  margin: 0;
+  padding: 0;
+  font-family: "맑은 고딕" 돋움, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: -3px;
+  color: #c8c8c8;
+  text-align: center;
+}
+
+/* Login Form Design */
+
+#loginForm {
+  padding-top: 30px;
+}
+
+#loginForm legend {
+  display: none;
+}
+
+#loginForm fieldset {
+  width: 330px;
+  margin: 10px auto;
+  border: 5px solid #0a2386;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#login label {
+  width: 80px;
+  float: left;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+#userId,#userPWD {
+  width: 150px;
+  border: 1px solid #0b3f84;;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+#login{float: left;}
+
+#btnLogin{
+  background: #0b3f84;
+  border-radius: 8px; border: none; color: #fff;
+width: 80px; height: 50px; position: relative;
+left: 10px; float: left;
+}
+#btn1{
+  clear: both; margin-left: 60px;
+  padding: 10px 0;
+}
+#btn1 label{
+  font-size: 11px;
+  vertical-align: top; padding: 0 0 0 4px;
+  line-height: 19px;
+}
+#btn2{
+  margin-left: 60px;
+}
+#btn2 input{
+  background-color: #666; border: none;
+  border-radius: 5px; color: #fff; padding: 5px 10px;
+}

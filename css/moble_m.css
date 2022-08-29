@@ -1,0 +1,29 @@
+
+
+.menu-hide{
+  position: fixed;
+  width: 345px;
+  height: 500px;
+  left: -345px;
+  height: 500px;
+  z-index: 10;
+  top: 0px;
+  transition: all .6s ease-in-out;
+background: blue;}
+  
+  .menu-hide ul li {
+    height: 70px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 70px;
+    transition: all .5s ease;
+  }
+      /*end of li*/
+    /*end of ul*/
+  /*end of nav*/
+/*end of menu-hide*/
+.menu-hide.show{
+  left: 0px;
+  background-color: rgba(255,255,255,0.2);
+  transition: all .6s ease-in-out;
+}
