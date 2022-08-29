@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.openMOgnb').click(function(){
+    $('.menu').toggleClass('show');
+    $('openMOgnb').toggleClass('active');
+  });
+  $('openMOgnb').click(function(){
+    $('.menu').removeClass('show');
+    $('.openMOgnb').removeClass('active');
+  });
+});
