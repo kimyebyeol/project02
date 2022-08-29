@@ -4,20 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/common.css" />
+    <title>빽다방</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/gnb.js"></script>
   </head>
   <body>
-    <div class="wrap">
+    <div id="wrap">
+      <p class="openMOgnb">
+        <a href="#"><b class="ir_so"></b><span></span><span></span><span></span> </a>
+      </p>
       <div id="top_header">
         <div class="inner">
           <p><a href="#">매장안내</a></p>
@@ -32,7 +31,7 @@
       </div>
       <div id="top_logo">
         <div class="inner">
-          <a href=""><img src="./img/logo.png" alt="#" /></a>
+          <a href="#"><img src="./img/logo.png" alt="빽다방" /></a>
         </div>
       </div>
       <header>
@@ -57,7 +56,7 @@
               </ul>
             </li>
             <li>
-              <a href="">소식</a>
+              <a href="#">소식</a>
               <ul>
                 <li><a href="#">이벤트</a></li>
                 <li><a href="#">친절 우수매장</a></li>
@@ -96,7 +95,6 @@
       </div>
       <div id="benner">
         <div class="inner">
-
           <div class="benner_text">
             <p>The Finest Quality Coffee Plants</p>
             <dl>
@@ -105,69 +103,150 @@
             </dl>
           </div>
         </div>
-         
-
+      </div>
+      <div id="content01">
+        <div class="inner">
+        <img class="pc_ver"
+          src="./img/main_sec2.jpg"
+          alt="FRESH
+         COFFEE"/>
+        <img class="m_ver"
+          src="./img/mmain_sec2.jpg"
+          alt="FRESH
+         COFFEE"/>
+          <dl>
+            <dt>
+              FRESH
+              <br />
+              COFFEE
+            </dt>
+            <dd>신선한 뉴크롭 원두를 사용하여 추출한 커피메뉴!</dd>
+          </dl>
         </div>
-        <div id="content01">
-         <img src="./img/main_sec2.jpg" alt="">
+      </div>
+      <div id="content02">
+        <div class="inner">
+          <img class="pc_ver"
+            src="./img/main_sec3.jpg"
+            alt="VARIOUS
+            BEVERAGE"
+          />
+          <img class="m_ver"
+            src="./img/mmain_sec3.jpg"
+            alt="VARIOUS
+            BEVERAGE"
+          />
+          <dl>
+            <dt>
+              VARIOUS
+              <br />
+              BEVERAGE
+            </dt>
+            <dd>에이드, 티, 주스 등 취향대로 골라 먹는 즐거움!</dd>
+          </dl>
         </div>
-        <div id="content02">
-          <div class="inner"><img src="./img/main_sec3.jpg" alt=""></div>
-          
+      </div>
+      <div id="content03">
+        <div class="inner">
+          <img class="pc_ver"
+            src="./img/main_sec4.jpg"
+            alt="SWEET
+            PAIK'S CCINO"
+          />
+          <img class="m_ver"
+            src="./img/mmain_sec4.jpg"
+            alt="SWEET
+            PAIK'S CCINO"
+          />
+          <dl>
+            <dt>
+              SWEET
+              <br />
+              PAIK'S CCINO
+            </dt>
+            <dd>달콤 시원한 빽다방 시그니처 메뉴!</dd>
+          </dl>
         </div>
-        <div id="content03">
-          <div class="inner"><img src="./img/main_sec4.jpg" alt=""></div>
+      </div>
+      <div id="content04">
+        <div class="inner">
+            <img class="pc_ver"
+              src="./img/main_sec5.jpg"
+              alt="TASTY
+              ICE CREAM /
+              DESSERT"
+            />
+            <img class="m_ver" src="./img/mmain_sec5.jpg" alt="TASTY
+            ICE CREAM /
+            DESSERT">
+            <dl>
+              <dt>
+                TASTY
+                <br />
+                ICE CREAM / DESSERT
+              </dt>
+              <dd>달콤한 아이스크림부터 든든한 브레드 까지!</dd>
+            </dl>
         </div>
-        <div id="content04">
-          <div class="inner">
-            <div class="inner"><img src="./img/main_sec5.jpg" alt=""></div>
-          </div>
-        </div>
-        <div id="content05-1">
-          <div class="inner">
-            <div id="content05">
-              <dl>
-                <dt>Search</dt>
-                <dd>원하시는 정보를 입력해보세요!</dd>
-              </dl>
-              <div class="form_area fl">
-                  <form>
-                  <input
-                    type="text"id="search1"placeholder="무엇을 찾고 계시나요?"/>
-                  <a href="#" class="search_button"><img src="./img/search-ico.png" alt="검색"></a>
-                </form>
-              </div>
-                </div>
-                <div id="content06">
-                  <dl>
-                    <dt>Membership</dt>
-                    <dd>멤버십의 다양한 혜택을 확인해보세요!</dd>
-                  </dl>
-                  <img src="./img/main_멤버십활성화-1.png" alt="">
-                </div>
+      </div>
+      <div id="content05-1">
+        <div class="inner">
+          <div id="content05">
+            <dl>
+              <dt>Search</dt>
+              <dd>원하시는 정보를 입력해보세요!</dd>
+            </dl>
+            <div class="form_area fl">
+              <form>
+                <input type="text" id="search1" placeholder="무엇을 찾고 계시나요?" />
+                <a href="#" class="search_button"><img src="./img/search-ico.png" alt="검색" /></a>
+              </form>
             </div>
-        </div>
-        <footer id="footer"> 
-          <div class="inner">
-            <ul>
-              <li>(주)더본코리아</li>
-              <li>사업자등록번호 211-86-00870</li>
-              <li>대표이사 백종원</li>
-            </ul>
-            <ul>
-              <li>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층</li>
-              <li>팩스: 02-511-3864</li>
-            </ul>
-            <ul>
-              <li>본사 대표전화: 02-549-3864</li>
-              <li>가맹상담전화: 02-3447-0410</li>
-              <li>고객센터: 1544-2360</li>
-            </ul>
           </div>
-          </footer>
+          <div id="content06">
+            <dl>
+              <dt>Membership</dt>
+              <dd>멤버십의 다양한 혜택을 확인해보세요!</dd>
+            </dl>
+            <img src="./img/main_멤버십활성화-1.png" alt="" />
+          </div>
         </div>
-      
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <div class="footer_logo">
+            <a href="#"><img src="./img/flogo.png" alt="" /></a>
+          </div>
+          <ul>
+            <li>(주)별코리아</li>
+            <li>사업자등록번호 010-87-25525</li>
+            <li>대표이사 김예별</li>
+          </ul>
+          <ul>
+            <li>주소: 서울시 강남구 xx동 xx빌딩 1층</li>
+          </ul>
+          <ul>
+            <li>팩스: 010-8725-5253</li>
+            <li>본사 대표전화: 010-8725-5253</li>
+            <li>가맹상담전화: 010-8725-5253</li>
+            <li>고객센터: 010-8725-5253</li>
+          </ul>
+          <p>COPYRIGHTⓒ 2022 STAR KOREA INC. ALL RIGHTS RESERVED</p>
+        </div>
+        <a href="#top" id="back_top">top</a>
+        <div class="menu">
+          <ul>
+            <li><a href="#">빽다방</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">소식</a></li>
+            <li><a href="#">커뮤니티</a></li>
+            <li><a href="#">매장안내</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
-    <script src="js/custom_js.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/topbtn.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
