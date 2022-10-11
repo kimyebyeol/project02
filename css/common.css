@@ -52,7 +52,7 @@ header {
   position: fixed;
   top: 119px;
   left: 0px;
-  background: linear-gradient(white 50px, rgb(255, 239, 74) 50px),
+  background: linear-gradient(white 60px, rgb(255, 239, 74) 60px),
     rgb(255, 239, 74);
   height: 50px;
   overflow: hidden;
@@ -67,18 +67,23 @@ nav {
 nav>ul>li {
   float: left;
   line-height: 50px;
-  margin-right: 40px;
+  padding:0 20px;
   position: relative;
   width: 110px;
+  text-align: center;
 }
 
 nav>ul>li ul {
+  left: 60px;
   position: absolute;
+  top: 83px;
   width: 100%;
+  text-align: left;
 }
 
 nav>ul>li>a {
   font-size: 1em;
+    padding-bottom: 47px;
 }
 
 nav>ul>li>a:hover {
@@ -90,6 +95,7 @@ nav>ul>li ul a {
   font-size: 0.8em;
   margin-left: -4px;
 }
+
 
 nav>ul>li ul a:hover {
   text-decoration: underline;
@@ -105,6 +111,7 @@ nav>ul>li ul a:hover {
 .gnb ul li {
   line-height: 36px;
 }
+
 
 #top_logo {
   position: fixed;
@@ -123,18 +130,18 @@ nav>ul>li ul a:hover {
 nav ul:first-child>li>a::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: -2%;
-  transform: translate(-7%);
+  bottom: -40%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 3px;
   background: #1e3569;
   transition: all 0.5s ease-in-out;
-  margin: 0 auto;
+  z-index: 9999999999999;  
 }
 
 nav ul:first-child>li>a:hover:after {
-  width: 100%;
+  width: 50%;
 }
 
 .menu {
