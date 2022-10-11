@@ -9,10 +9,10 @@ $(function(){
         $(this).find('ul').show();
         $('.overlay').addClass('show');
         var submenuHeight=$(this).find('ul').height();
-        header.stop().animate({height:submenuHeight+headerHeight},1000) /* 1000은 애니메이션의 지속시간=1초 */ 
+        header.stop().animate({height:submenuHeight+headerHeight+50},500) /* +50 은 투뎁스메뉴의 여백 */ 
     })
     firstmanu.mouseleave(function(){
-        header.stop().animate({height:headerHeight},1000)
+        header.stop().animate({height:headerHeight},500)
         $(this).find('ul').hide();
         $('.overlay').removeClass('show');
     })
